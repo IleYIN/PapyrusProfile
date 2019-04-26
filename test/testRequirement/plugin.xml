@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated testRequirement.profile -->
+      <package
+            uri="http://MyRequirement/1"
+            class="testRequirement.TestRequirementPackage"
+            genModel="profile/testRequirement.profile.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://TESTREQUIREMENT_PROFILE/"
+            target="platform:/plugin/testRequirement/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+          <profile
+            location="pathmap://TESTREQUIREMENT_PROFILE/testRequirement.profile.uml#_zCA-oGEaEemrYNyeQXTqWw"
+            uri="http://MyRequirement/1">
+      </profile>
+   </extension>
+   
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="my requirement"
+            iconpath="icon/icon.png"
+            name="MYREQUIREMENT"
+            path="pathmap://TESTREQUIREMENT_PROFILE/testRequirement.profile.uml"
+            provider="yin">
+      </profile>
+   </extension>
+
+</plugin>
+

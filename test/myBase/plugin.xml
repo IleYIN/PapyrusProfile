@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ 
+
+-->
+
+<plugin>
+
+	<extension point="org.eclipse.emf.ecore.generated_package">
+           <package
+            uri="http://mybase/Mybase/1"
+            class="myBase.MyBasePackage"
+            genModel="profile/myBase.profile.genmodel"/>
+   </extension>
+   
+     <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://MY_BASE_PROFILE/"
+            target="platform:/plugin/myBase/">
+      </mapping>
+   </extension>
+   
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+      <profile
+            location="pathmap://MY_BASE_PROFILE/myBase.profile.uml#_s4MLQGJ7EemXS4aGAuutcA"
+            uri="http://mybase/Mybase/1">
+      </profile>
+   </extension>
+   
+   <!-- register the profile so it can be found by the Papyrus Apply profil property view -->
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="my base"
+            iconpath="icon/icon.png"
+            name="MYBASE"
+            path="pathmap://MY_BASE_PROFILE/myBase.profile.uml"
+            provider="yin">
+      </profile>
+   </extension>
+   
+   <!-- register the profile so it can be found by the Papyrus Import Library menu in the model explorer -->   
+
+</plugin>

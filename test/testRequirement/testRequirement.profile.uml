@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Ecore="http://www.eclipse.org/uml2/schemas/Ecore/5" xmlns:Symbols="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Ecore/5 pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2 pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA">
+  <uml:Profile xmi:id="_zCA-oGEaEemrYNyeQXTqWw" name="testRequirement" metaclassReference="_EZuYQGZ0Eem5-c2WuJAvOA _TDuukGZ0Eem5-c2WuJAvOA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pLiMQGEbEemrYNyeQXTqWw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Uv5zcGK5EemGL7UwkQ5GOA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Uv5zcWK5EemGL7UwkQ5GOA" key="Version" value="0.0.0"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Uv5zcmK5EemGL7UwkQ5GOA" key="Comment" value="&lt;undefined>"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Uv5zc2K5EemGL7UwkQ5GOA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Uv5zdGK5EemGL7UwkQ5GOA" key="Date" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Uv5zdWK5EemGL7UwkQ5GOA" key="Author" value="&lt;undefined>"/>
+      </eAnnotations>
+      <contents xmi:type="ecore:EPackage" xmi:id="_gpEFQWgIEemGkbYSIesF0w" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gpEFQmgIEemGkbYSIesF0w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gpEFSWgIEemGkbYSIesF0w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gpEFSmgIEemGkbYSIesF0w" key="Version" value="0.0.14"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gpEFS2gIEemGkbYSIesF0w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gpEFTGgIEemGkbYSIesF0w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gpEFTWgIEemGkbYSIesF0w" key="Date" value="2019-04-26"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gpEFTmgIEemGkbYSIesF0w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_gpEFQ2gIEemGkbYSIesF0w" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gpEFRGgIEemGkbYSIesF0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_gpEFRWgIEemGkbYSIesF0w" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_F5kj0WgIEemGkbYSIesF0w" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F5kj0mgIEemGkbYSIesF0w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F5lK4WgIEemGkbYSIesF0w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F5lK4mgIEemGkbYSIesF0w" key="Version" value="0.0.13"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F5lK42gIEemGkbYSIesF0w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F5lK5GgIEemGkbYSIesF0w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F5lK5WgIEemGkbYSIesF0w" key="Date" value="2019-04-26"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F5lK5mgIEemGkbYSIesF0w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_F5kj02gIEemGkbYSIesF0w" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F5kj1GgIEemGkbYSIesF0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_F5kj1WgIEemGkbYSIesF0w" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_s_c-sWf-EemGkbYSIesF0w" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s_c-smf-EemGkbYSIesF0w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s_dlwWf-EemGkbYSIesF0w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s_dlwmf-EemGkbYSIesF0w" key="Version" value="0.0.12"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s_dlw2f-EemGkbYSIesF0w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s_dlxGf-EemGkbYSIesF0w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s_dlxWf-EemGkbYSIesF0w" key="Date" value="2019-04-26"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s_dlxmf-EemGkbYSIesF0w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_s_c-s2f-EemGkbYSIesF0w" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s_c-tGf-EemGkbYSIesF0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_s_c-tWf-EemGkbYSIesF0w" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_n4vjkGf-EemGkbYSIesF0w" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n4vjkWf-EemGkbYSIesF0w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n4vjmGf-EemGkbYSIesF0w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n4vjmWf-EemGkbYSIesF0w" key="Version" value="0.0.11"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n4vjmmf-EemGkbYSIesF0w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n4vjm2f-EemGkbYSIesF0w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n4vjnGf-EemGkbYSIesF0w" key="Date" value="2019-04-26"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n4vjnWf-EemGkbYSIesF0w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n4vjkmf-EemGkbYSIesF0w" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n4vjk2f-EemGkbYSIesF0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n4vjlGf-EemGkbYSIesF0w" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_ia7XYGf7EemGkbYSIesF0w" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ia7XYWf7EemGkbYSIesF0w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ia7-cWf7EemGkbYSIesF0w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ia7-cmf7EemGkbYSIesF0w" key="Version" value="0.0.10"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ia7-c2f7EemGkbYSIesF0w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ia7-dGf7EemGkbYSIesF0w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ia7-dWf7EemGkbYSIesF0w" key="Date" value="2019-04-26"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ia7-dmf7EemGkbYSIesF0w" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ia7XYmf7EemGkbYSIesF0w" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ia7XY2f7EemGkbYSIesF0w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ia7XZGf7EemGkbYSIesF0w" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_QG8tAGZ3Eem5-c2WuJAvOA" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QG8tAWZ3Eem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QG8tCGZ3Eem5-c2WuJAvOA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QG8tCWZ3Eem5-c2WuJAvOA" key="Version" value="0.0.9"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QG8tCmZ3Eem5-c2WuJAvOA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QG8tC2Z3Eem5-c2WuJAvOA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QG8tDGZ3Eem5-c2WuJAvOA" key="Date" value="2019-04-24"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QG8tDWZ3Eem5-c2WuJAvOA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_QG8tAmZ3Eem5-c2WuJAvOA" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QG8tA2Z3Eem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_QG8tBGZ3Eem5-c2WuJAvOA" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_GVXwIWZ1Eem5-c2WuJAvOA" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GVXwImZ1Eem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GVYXMWZ1Eem5-c2WuJAvOA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GVYXMmZ1Eem5-c2WuJAvOA" key="Version" value="0.0.8"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GVYXM2Z1Eem5-c2WuJAvOA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GVYXNGZ1Eem5-c2WuJAvOA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GVYXNWZ1Eem5-c2WuJAvOA" key="Date" value="2019-04-24"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GVYXNmZ1Eem5-c2WuJAvOA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_GVXwI2Z1Eem5-c2WuJAvOA" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GVXwJGZ1Eem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_GVXwJWZ1Eem5-c2WuJAvOA" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_W8a3YWZ0Eem5-c2WuJAvOA" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W8a3YmZ0Eem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W8a3b2Z0Eem5-c2WuJAvOA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W8a3cGZ0Eem5-c2WuJAvOA" key="Version" value="0.0.7"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W8a3cWZ0Eem5-c2WuJAvOA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W8a3cmZ0Eem5-c2WuJAvOA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W8a3c2Z0Eem5-c2WuJAvOA" key="Date" value="2019-04-24"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W8a3dGZ0Eem5-c2WuJAvOA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_W8a3Y2Z0Eem5-c2WuJAvOA" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W8a3ZGZ0Eem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_W8a3ZWZ0Eem5-c2WuJAvOA" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_W8a3Z2Z0Eem5-c2WuJAvOA" name="base_Package" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_W8a3aWZ0Eem5-c2WuJAvOA" name="base_PackageImport" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//PackageImport"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_K_iOoWZ0Eem5-c2WuJAvOA" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K_iOomZ0Eem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K_iOrGZ0Eem5-c2WuJAvOA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_K_iOrWZ0Eem5-c2WuJAvOA" key="Version" value="0.0.6"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_K_iOrmZ0Eem5-c2WuJAvOA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_K_iOr2Z0Eem5-c2WuJAvOA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_K_iOsGZ0Eem5-c2WuJAvOA" key="Date" value="2019-04-24"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_K_iOsWZ0Eem5-c2WuJAvOA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_K_iOo2Z0Eem5-c2WuJAvOA" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K_iOpGZ0Eem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K_iOpWZ0Eem5-c2WuJAvOA" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K_iOp2Z0Eem5-c2WuJAvOA" name="base_Package" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_JXn1oWZ0Eem5-c2WuJAvOA" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JXn1omZ0Eem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JXocsWZ0Eem5-c2WuJAvOA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JXocsmZ0Eem5-c2WuJAvOA" key="Version" value="0.0.5"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JXocs2Z0Eem5-c2WuJAvOA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JXoctGZ0Eem5-c2WuJAvOA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JXoctWZ0Eem5-c2WuJAvOA" key="Date" value="2019-04-24"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JXoctmZ0Eem5-c2WuJAvOA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_JXn1o2Z0Eem5-c2WuJAvOA" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JXn1pGZ0Eem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_JXn1pWZ0Eem5-c2WuJAvOA" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_JXn1p2Z0Eem5-c2WuJAvOA" name="base_Package" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_gP3qoGZyEem5-c2WuJAvOA" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gP3qoWZyEem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gP3qqGZyEem5-c2WuJAvOA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gP3qqWZyEem5-c2WuJAvOA" key="Version" value="0.0.4"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gP3qqmZyEem5-c2WuJAvOA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gP3qq2ZyEem5-c2WuJAvOA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gP3qrGZyEem5-c2WuJAvOA" key="Date" value="2019-04-24"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gP3qrWZyEem5-c2WuJAvOA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_gP3qomZyEem5-c2WuJAvOA" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gP3qo2ZyEem5-c2WuJAvOA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_gP3qpGZyEem5-c2WuJAvOA" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_fnmVwWK5EemGL7UwkQ5GOA" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fnmVwmK5EemGL7UwkQ5GOA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fnnj4WK5EemGL7UwkQ5GOA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fnnj4mK5EemGL7UwkQ5GOA" key="Version" value="0.0.3"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fnnj42K5EemGL7UwkQ5GOA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fnnj5GK5EemGL7UwkQ5GOA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fnnj5WK5EemGL7UwkQ5GOA" key="Date" value="2019-04-19"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fnnj5mK5EemGL7UwkQ5GOA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_fnmVw2K5EemGL7UwkQ5GOA" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fnmVxGK5EemGL7UwkQ5GOA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_fnmVxWK5EemGL7UwkQ5GOA" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_VO56IGHpEemQEYTLUTOwWA" name="testRequirement" nsURI="http://testRequirement/RequirementPlus/1" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VO56IWHpEemQEYTLUTOwWA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VO7IQWHpEemQEYTLUTOwWA" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO7IQmHpEemQEYTLUTOwWA" key="Version" value="0.0.2"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO7IQ2HpEemQEYTLUTOwWA" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO7IRGHpEemQEYTLUTOwWA" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO7IRWHpEemQEYTLUTOwWA" key="Date" value="2019-04-18"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO7IRmHpEemQEYTLUTOwWA" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_VO56ImHpEemQEYTLUTOwWA" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VO56I2HpEemQEYTLUTOwWA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_VO56JGHpEemQEYTLUTOwWA" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_pLiMQWEbEemrYNyeQXTqWw" name="testRequirement" nsURI="http:///schemas/testRequirement/_pLgXEGEbEemrYNyeQXTqWw/0" nsPrefix="testRequirement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pLiMQmEbEemrYNyeQXTqWw" source="http://www.eclipse.org/uml2/4.1.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pLkBcWEbEemrYNyeQXTqWw" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pLkBcmEbEemrYNyeQXTqWw" key="Version" value="0.0.1"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pLkBc2EbEemrYNyeQXTqWw" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pLkBdGEbEemrYNyeQXTqWw" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pLkBdWEbEemrYNyeQXTqWw" key="Date" value="2019-04-17"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pLkBdmEbEemrYNyeQXTqWw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_pLiMQ2EbEemrYNyeQXTqWw" name="RquirementPlus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pLiMRGEbEemrYNyeQXTqWw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-vf5cGEaEemrYNyeQXTqWw"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements/Requirement"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pLiMRWEbEemrYNyeQXTqWw" name="verified" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_EZuYQGZ0Eem5-c2WuJAvOA" alias="Package">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+    </elementImport>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_TDuukGZ0Eem5-c2WuJAvOA" alias="PackageImport">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#PackageImport"/>
+    </elementImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_zHNAoGEaEemrYNyeQXTqWw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_zHOOwGEaEemrYNyeQXTqWw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_-vf5cGEaEemrYNyeQXTqWw" name="RquirementPlus">
+      <generalization xmi:type="uml:Generalization" xmi:id="_YOnYIGEbEemrYNyeQXTqWw">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements.stereotype_packagedElement_Requirement"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_bLs0UGEbEemrYNyeQXTqWw" name="verified">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <icon xmi:type="uml:Image" xmi:id="_lsGpsGf6EemGkbYSIesF0w" location="platform:/plugin/testRequirement/icon/req2.png">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lsGpsWf6EemGkbYSIesF0w" source="image_papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lsGpsmf6EemGkbYSIesF0w" key="image_name_key" value="RPicon"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lsGps2f6EemGkbYSIesF0w" key="image_kind_key" value="icon"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:type="uml:Image" xmi:id="_hqKo0Gf7EemGkbYSIesF0w" location="platform:/plugin/testRequirement/icon/icon.png">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hqKo0Wf7EemGkbYSIesF0w" source="image_papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hqKo0mf7EemGkbYSIesF0w" key="image_kind_key" value="shape"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hqKo02f7EemGkbYSIesF0w" key="image_name_key" value="ShapeIcon"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_JIbQgGHpEemQEYTLUTOwWA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JIrIIGHpEemQEYTLUTOwWA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Ecore.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_TEVggGf-EemGkbYSIesF0w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TEZx8Gf-EemGkbYSIesF0w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TEaZAGf-EemGkbYSIesF0w" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TEaZAWf-EemGkbYSIesF0w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TEaZAmf-EemGkbYSIesF0w" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TEaZA2f-EemGkbYSIesF0w" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TEaZBGf-EemGkbYSIesF0w" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TEZK4Gf-EemGkbYSIesF0w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_16oYAD-SEeKj6r7ThQagKA"/>
+    </profileApplication>
+  </uml:Profile>
+  <Ecore:EPackage xmi:id="_MFBkgGHpEemQEYTLUTOwWA" base_Package="_zCA-oGEaEemrYNyeQXTqWw" nsURI="http://MyRequirement/1"/>
+  <Symbols:TypeSymbolDefinition xmi:id="_V9s6UGf-EemGkbYSIesF0w" base_Type="_-vf5cGEaEemrYNyeQXTqWw" symbolPath="icon/book.png"/>
+</xmi:XMI>

@@ -1,0 +1,10 @@
+[appliedStereotypes~="RquirementPlus"]{
+	nameBackgroundColor: cadetblue;
+	radiusHeigt: 5;
+	radiusWidth: 5;
+}
+[appliedStereotypes~=RquirementPlus][isEncapsulated=true]{
+	shadow: true;
+	shadowColor: darkred;
+	shadowWidth: 3;
+}

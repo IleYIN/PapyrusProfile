@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="testRequirement" nsURI="http://MyRequirement/1" nsPrefix="testRequirement">
+  <eClassifiers xsi:type="ecore:EClass" name="RquirementPlus" eSuperTypes="../../org.eclipse.papyrus.sysml14/resources/profile/sysml.ecore#//requirements/Requirement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="verified" ordered="false"
+        lowerBound="1" eType="ecore:EDataType ../../org.eclipse.uml2.types/model/Types.ecore#//Boolean"/>
+  </eClassifiers>
+</ecore:EPackage>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:myBase="http://mybase/Mybase/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://mybase/Mybase/1 /myBase/myBase.profile.uml#_tPnfkGZnEem5-c2WuJAvOA">
+  <uml:Package xmi:id="_pj8BoGggEemvTLFAHfnGiQ" name="Package4">
+    <packagedElement xmi:type="uml:Class" xmi:id="_fVw2EGgjEemvTLFAHfnGiQ" name="Class2">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jjhagGgkEemvTLFAHfnGiQ" name="Property1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eGJ9cGglEemvTLFAHfnGiQ" name="Class3"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GAMDAGglEemvTLFAHfnGiQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAMDAWglEemvTLFAHfnGiQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAMDAmglEemvTLFAHfnGiQ" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAMDA2glEemvTLFAHfnGiQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAMDBGglEemvTLFAHfnGiQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAMDBWglEemvTLFAHfnGiQ" key="Date" value="2019-04-24"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GAMDBmglEemvTLFAHfnGiQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAMDB2glEemvTLFAHfnGiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/myBase/myBase.profile.uml#_tPnfkGZnEem5-c2WuJAvOA"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GAMqEGglEemvTLFAHfnGiQ" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="/myBase/myBase.profile.uml#_s4MLQGJ7EemXS4aGAuutcA"/>
+    </profileApplication>
+  </uml:Package>
+  <myBase:Base xmi:id="_qwAMIGggEemvTLFAHfnGiQ" base_Package="_pj8BoGggEemvTLFAHfnGiQ"/>
+  <myBase:Table xmi:id="_hZkg4GgjEemvTLFAHfnGiQ" base_Class="_fVw2EGgjEemvTLFAHfnGiQ"/>
+  <myBase:Colonne xmi:id="_k6Fk0GgkEemvTLFAHfnGiQ" base_Property="_jjhagGgkEemvTLFAHfnGiQ"/>
+  <myBase:Table xmi:id="_gKFkEGglEemvTLFAHfnGiQ" base_Class="_eGJ9cGglEemvTLFAHfnGiQ"/>
+</xmi:XMI>

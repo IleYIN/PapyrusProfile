@@ -7,7 +7,15 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_NHBrIGZqEem5-c2WuJAvOA" name="Class5">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_UGx8gGggEemvTLFAHfnGiQ" name="Property1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" href="Package4.uml#_pj8BoGggEemvTLFAHfnGiQ"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pj8BoGggEemvTLFAHfnGiQ" name="Package4">
+      <packagedElement xmi:type="uml:Class" xmi:id="_fVw2EGgjEemvTLFAHfnGiQ" name="Class2">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jjhagGgkEemvTLFAHfnGiQ" name="Property2"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_eGJ9cGglEemvTLFAHfnGiQ" name="Class3">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1wMYEHMhEemjJb8k9dtw7w" name="Property3"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0ZGh8HMkEemjJb8k9dtw7w" name="Package5"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_D6zjwGKnEem_decS2jJhtw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LjGEMGggEemvTLFAHfnGiQ" source="PapyrusVersion">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LjGEMWggEemvTLFAHfnGiQ" key="Version" value="0.0.1"/>
@@ -22,6 +30,12 @@
       <appliedProfile xmi:type="uml:Profile" href="/myBase/myBase.profile.uml#_s4MLQGJ7EemXS4aGAuutcA"/>
     </profileApplication>
   </uml:Model>
-  <myBase:Colonne xmi:id="_Vk9xwGggEemvTLFAHfnGiQ" base_Property="_UGx8gGggEemvTLFAHfnGiQ"/>
-  <myBase:Table xmi:id="_Pe1hAGggEemvTLFAHfnGiQ" base_Class="_NHBrIGZqEem5-c2WuJAvOA" ClefPrimaire="_Vk9xwGggEemvTLFAHfnGiQ"/>
+  <myBase:Table xmi:id="_sj1gwHMiEemjJb8k9dtw7w" base_Class="_NHBrIGZqEem5-c2WuJAvOA" ClefPrimaire="_uzbk0HMiEemjJb8k9dtw7w"/>
+  <myBase:Colonne xmi:id="_uzbk0HMiEemjJb8k9dtw7w" base_Property="_UGx8gGggEemvTLFAHfnGiQ"/>
+  <myBase:Table xmi:id="_rGoi8HMiEemjJb8k9dtw7w" base_Class="_eGJ9cGglEemvTLFAHfnGiQ" ClefPrimaire="_tn3JkHMiEemjJb8k9dtw7w"/>
+  <myBase:Colonne xmi:id="_tn3JkHMiEemjJb8k9dtw7w" base_Property="_1wMYEHMhEemjJb8k9dtw7w"/>
+  <myBase:Colonne xmi:id="_k6Fk0GgkEemvTLFAHfnGiQ" base_Property="_jjhagGgkEemvTLFAHfnGiQ"/>
+  <myBase:Base xmi:id="_pZ2RAHMiEemjJb8k9dtw7w" base_Package="_pj8BoGggEemvTLFAHfnGiQ"/>
+  <myBase:Table xmi:id="_hZkg4GgjEemvTLFAHfnGiQ" base_Class="_fVw2EGgjEemvTLFAHfnGiQ" ClefPrimaire="_k6Fk0GgkEemvTLFAHfnGiQ"/>
+  <myBase:Base xmi:id="_25xH4HMkEemjJb8k9dtw7w" base_Package="_0ZGh8HMkEemjJb8k9dtw7w"/>
 </xmi:XMI>

@@ -34,6 +34,18 @@
             provider="yin">
       </profile>
    </extension>
-
+       <!--  <paletteDefinition
+   <extension
+         point="org.eclipse.papyrus.infra.gmfdiag.common.paletteDefinition">
+            ID="testRequirement.palette"
+            class="org.eclipse.papyrus.uml.diagram.common.service.PluginPaletteProvider"
+            name="RequirementPlusDiagramElements"
+            path="resources/palette.xml">
+         <Priority
+               name="Lowest">
+         </Priority>
+      </paletteDefinition>
+   </extension>
+     --> 
 </plugin>
 

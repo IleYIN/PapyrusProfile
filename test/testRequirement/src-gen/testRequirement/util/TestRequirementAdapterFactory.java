@@ -70,8 +70,8 @@ public class TestRequirementAdapterFactory extends AdapterFactoryImpl {
 	protected TestRequirementSwitch<Adapter> modelSwitch =
 		new TestRequirementSwitch<Adapter>() {
 			@Override
-			public Adapter caseRquirementPlus(RquirementPlus object) {
-				return createRquirementPlusAdapter();
+			public Adapter caseRequirementPlus(RequirementPlus object) {
+				return createRequirementPlusAdapter();
 			}
 			@Override
 			public Adapter caseRequirement(Requirement object) {
@@ -98,16 +98,16 @@ public class TestRequirementAdapterFactory extends AdapterFactoryImpl {
 
 
 	/**
-	 * Creates a new adapter for an object of class '{@link testRequirement.RquirementPlus <em>Rquirement Plus</em>}'.
+	 * Creates a new adapter for an object of class '{@link testRequirement.RequirementPlus <em>Requirement Plus</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see testRequirement.RquirementPlus
+	 * @see testRequirement.RequirementPlus
 	 * @generated
 	 */
-	public Adapter createRquirementPlusAdapter() {
+	public Adapter createRequirementPlusAdapter() {
 		return null;
 	}
 

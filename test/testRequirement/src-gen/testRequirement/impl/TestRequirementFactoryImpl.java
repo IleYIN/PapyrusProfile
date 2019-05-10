@@ -56,7 +56,7 @@ public class TestRequirementFactoryImpl extends EFactoryImpl implements TestRequ
 	@Override
 	public EObject create(EClass eClass) {
 		switch (eClass.getClassifierID()) {
-			case TestRequirementPackage.RQUIREMENT_PLUS: return createRquirementPlus();
+			case TestRequirementPackage.REQUIREMENT_PLUS: return createRequirementPlus();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -68,9 +68,9 @@ public class TestRequirementFactoryImpl extends EFactoryImpl implements TestRequ
 	 * @generated
 	 */
 	@Override
-	public RquirementPlus createRquirementPlus() {
-		RquirementPlusImpl rquirementPlus = new RquirementPlusImpl();
-		return rquirementPlus;
+	public RequirementPlus createRequirementPlus() {
+		RequirementPlusImpl requirementPlus = new RequirementPlusImpl();
+		return requirementPlus;
 	}
 
 	/**

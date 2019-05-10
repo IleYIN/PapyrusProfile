@@ -33,8 +33,12 @@
   <foreignModel>../testRequirement.profile.uml</foreignModel>
   <genPackages xsi:type="genmodel:GenPackage" prefix="TestRequirement" disposableProviderFactory="true"
       ecorePackage="testRequirement.ecore#/">
-    <genClasses xsi:type="genmodel:GenClass" ecoreClass="testRequirement.ecore#//RquirementPlus">
-      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute testRequirement.ecore#//RquirementPlus/verified"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="testRequirement.ecore#//RequirementPlus">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute testRequirement.ecore#//RequirementPlus/verified"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="testRequirement.ecore#//RequirementPlus/Constraint9">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="testRequirement.ecore#//RequirementPlus/Constraint9/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="testRequirement.ecore#//RequirementPlus/Constraint9/context"/>
+      </genOperations>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

@@ -4,7 +4,10 @@ package testRequirement.impl;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EGenericType;
+import org.eclipse.emf.ecore.EOperation;
 import org.eclipse.emf.ecore.EPackage;
+import org.eclipse.emf.ecore.EValidator;
 import org.eclipse.emf.ecore.EcorePackage;
 
 import org.eclipse.emf.ecore.impl.EPackageImpl;
@@ -19,9 +22,11 @@ import org.eclipse.uml2.uml.UMLPackage;
 
 import org.eclipse.uml2.uml.profile.standard.StandardPackage;
 
-import testRequirement.RquirementPlus;
+import testRequirement.RequirementPlus;
 import testRequirement.TestRequirementFactory;
 import testRequirement.TestRequirementPackage;
+
+import testRequirement.util.TestRequirementValidator;
 
 /**
  * <!-- begin-user-doc -->
@@ -35,7 +40,7 @@ public class TestRequirementPackageImpl extends EPackageImpl implements TestRequ
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private EClass rquirementPlusEClass = null;
+	private EClass requirementPlusEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -97,6 +102,16 @@ public class TestRequirementPackageImpl extends EPackageImpl implements TestRequ
 		// Initialize created meta-data
 		theTestRequirementPackage.initializePackageContents();
 
+		// Register package validator
+		EValidator.Registry.INSTANCE.put
+			(theTestRequirementPackage,
+			 new EValidator.Descriptor() {
+				 @Override
+				 public EValidator getEValidator() {
+					 return TestRequirementValidator.INSTANCE;
+				 }
+			 });
+
 		// Mark meta-data to indicate it can't be changed
 		theTestRequirementPackage.freeze();
 
@@ -111,8 +126,8 @@ public class TestRequirementPackageImpl extends EPackageImpl implements TestRequ
 	 * @generated
 	 */
 	@Override
-	public EClass getRquirementPlus() {
-		return rquirementPlusEClass;
+	public EClass getRequirementPlus() {
+		return requirementPlusEClass;
 	}
 
 	/**
@@ -121,8 +136,18 @@ public class TestRequirementPackageImpl extends EPackageImpl implements TestRequ
 	 * @generated
 	 */
 	@Override
-	public EAttribute getRquirementPlus_Verified() {
-		return (EAttribute)rquirementPlusEClass.getEStructuralFeatures().get(0);
+	public EAttribute getRequirementPlus_Verified() {
+		return (EAttribute)requirementPlusEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EOperation getRequirementPlus__Constraint9__DiagnosticChain_Map() {
+		return requirementPlusEClass.getEOperations().get(0);
 	}
 
 	/**
@@ -154,8 +179,9 @@ public class TestRequirementPackageImpl extends EPackageImpl implements TestRequ
 		isCreated = true;
 
 		// Create classes and their features
-		rquirementPlusEClass = createEClass(RQUIREMENT_PLUS);
-		createEAttribute(rquirementPlusEClass, RQUIREMENT_PLUS__VERIFIED);
+		requirementPlusEClass = createEClass(REQUIREMENT_PLUS);
+		createEAttribute(requirementPlusEClass, REQUIREMENT_PLUS__VERIFIED);
+		createEOperation(requirementPlusEClass, REQUIREMENT_PLUS___CONSTRAINT9__DIAGNOSTICCHAIN_MAP);
 	}
 
 	/**
@@ -190,11 +216,20 @@ public class TestRequirementPackageImpl extends EPackageImpl implements TestRequ
 		// Set bounds for type parameters
 
 		// Add supertypes to classes
-		rquirementPlusEClass.getESuperTypes().add(theRequirementsPackage.getRequirement());
+		requirementPlusEClass.getESuperTypes().add(theRequirementsPackage.getRequirement());
 
 		// Initialize classes, features, and operations; add parameters
-		initEClass(rquirementPlusEClass, RquirementPlus.class, "RquirementPlus", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getRquirementPlus_Verified(), theTypesPackage.getBoolean(), "verified", null, 1, 1, RquirementPlus.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
+		initEClass(requirementPlusEClass, RequirementPlus.class, "RequirementPlus", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getRequirementPlus_Verified(), theTypesPackage.getBoolean(), "verified", null, 1, 1, RequirementPlus.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
+
+		EOperation op = initEOperation(getRequirementPlus__Constraint9__DiagnosticChain_Map(), ecorePackage.getEBoolean(), "Constraint9", 0, 1, IS_UNIQUE, IS_ORDERED);
+		addEParameter(op, ecorePackage.getEDiagnosticChain(), "diagnostics", 0, 1, IS_UNIQUE, IS_ORDERED);
+		EGenericType g1 = createEGenericType(ecorePackage.getEMap());
+		EGenericType g2 = createEGenericType(ecorePackage.getEJavaObject());
+		g1.getETypeArguments().add(g2);
+		g2 = createEGenericType(ecorePackage.getEJavaObject());
+		g1.getETypeArguments().add(g2);
+		addEParameter(op, g1, "context", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);

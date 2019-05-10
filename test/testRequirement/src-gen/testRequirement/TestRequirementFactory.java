@@ -22,13 +22,13 @@ public interface TestRequirementFactory extends EFactory {
 	TestRequirementFactory eINSTANCE = testRequirement.impl.TestRequirementFactoryImpl.init();
 
 	/**
-	 * Returns a new object of class '<em>Rquirement Plus</em>'.
+	 * Returns a new object of class '<em>Requirement Plus</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Rquirement Plus</em>'.
+	 * @return a new object of class '<em>Requirement Plus</em>'.
 	 * @generated
 	 */
-	RquirementPlus createRquirementPlus();
+	RequirementPlus createRequirementPlus();
 
 	/**
 	 * Returns the package supported by this factory.

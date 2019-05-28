@@ -8,6 +8,63 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_22UrxHVoEemRA_QBS8Gsvg" key="Date" value=""/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_22UrxXVoEemRA_QBS8Gsvg" key="Author" value="&lt;undefined>"/>
     </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_p6O6kX5BEem6Cfa7eDdxWw" name="certificationProfile" nsURI="http:///schemas/certificationProfile/_p6O6kH5BEem6Cfa7eDdxWw/18" nsPrefix="certificationProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p6QIuX5BEem6Cfa7eDdxWw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p6QIun5BEem6Cfa7eDdxWw" key="Version" value="0.0.19"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p6QIu35BEem6Cfa7eDdxWw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p6QIvH5BEem6Cfa7eDdxWw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p6QIvX5BEem6Cfa7eDdxWw" key="Date" value="2019-05-24"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p6QIvn5BEem6Cfa7eDdxWw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_p6O6kn5BEem6Cfa7eDdxWw" name="Process">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p6O6k35BEem6Cfa7eDdxWw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OFoIMHItEemfSITOi8f5QA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6O6lH5BEem6Cfa7eDdxWw" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6PhoX5BEem6Cfa7eDdxWw" name="activity" ordered="false" upperBound="-1" eType="_p6PhqX5BEem6Cfa7eDdxWw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6Pho35BEem6Cfa7eDdxWw" name="subprocess" ordered="false" upperBound="-1" eType="_p6O6kn5BEem6Cfa7eDdxWw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_p6PhpX5BEem6Cfa7eDdxWw" name="semantics" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6Php35BEem6Cfa7eDdxWw" name="nextprocess" ordered="false" upperBound="-1" eType="_p6O6kn5BEem6Cfa7eDdxWw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_p6PhqX5BEem6Cfa7eDdxWw" name="Activity">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p6Phqn5BEem6Cfa7eDdxWw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_TrYPwHItEemfSITOi8f5QA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6Phq35BEem6Cfa7eDdxWw" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6PhrX5BEem6Cfa7eDdxWw" name="task" ordered="false" upperBound="-1" eType="_p6Phr35BEem6Cfa7eDdxWw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_p6Phr35BEem6Cfa7eDdxWw" name="Task">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p6PhsH5BEem6Cfa7eDdxWw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_huzRwHIuEemfSITOi8f5QA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6PhsX5BEem6Cfa7eDdxWw" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_p6Phs35BEem6Cfa7eDdxWw" name="Role">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p6PhtH5BEem6Cfa7eDdxWw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Vhs4MHItEemfSITOi8f5QA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6PhtX5BEem6Cfa7eDdxWw" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6Pht35BEem6Cfa7eDdxWw" name="activity" ordered="false" upperBound="-1" eType="_p6PhqX5BEem6Cfa7eDdxWw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_p6PhuX5BEem6Cfa7eDdxWw" name="Attribute">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p6Phun5BEem6Cfa7eDdxWw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nWSz0HIwEemfSITOi8f5QA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6Phu35BEem6Cfa7eDdxWw" name="base_Property" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_p6PhvX5BEem6Cfa7eDdxWw" name="updateTime" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_p6Phv35BEem6Cfa7eDdxWw" name="semantics" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_p6PhwX5BEem6Cfa7eDdxWw" name="content" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_p6Phw35BEem6Cfa7eDdxWw" name="subAttribute" ordered="false" upperBound="-1" eType="_p6PhuX5BEem6Cfa7eDdxWw"/>
+      </eClassifiers>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_bgR_0H38Eem6Cfa7eDdxWw" name="certificationProfile" nsURI="http:///schemas/certificationProfile/_bgQKoH38Eem6Cfa7eDdxWw/17" nsPrefix="certificationProfile">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bgTN9H38Eem6Cfa7eDdxWw" source="PapyrusVersion">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bgTN9X38Eem6Cfa7eDdxWw" key="Version" value="0.0.18"/>

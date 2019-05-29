@@ -392,15 +392,15 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_6PWA8IHoEemcgtS20UCkXg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PWoAIHoEemcgtS20UCkXg" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PWoAYHoEemcgtS20UCkXg" key="Version" value="0.0.19"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PWoAoHoEemcgtS20UCkXg" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PWoA4HoEemcgtS20UCkXg" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PWoBIHoEemcgtS20UCkXg" key="Date" value="2019-05-24"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PWoBYHoEemcgtS20UCkXg" key="Author" value=""/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__hCooIIrEemcgtS20UCkXg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__hCooYIrEemcgtS20UCkXg" key="Version" value="0.0.20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__hCoooIrEemcgtS20UCkXg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__hCoo4IrEemcgtS20UCkXg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__hCopIIrEemcgtS20UCkXg" key="Date" value="2019-05-29"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__hCopYIrEemcgtS20UCkXg" key="Author" value=""/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PWA8YHoEemcgtS20UCkXg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_p6O6kX5BEem6Cfa7eDdxWw"/>
+        <references xmi:type="ecore:EPackage" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_VNFJMIIqEemcgtS20UCkXg"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_fnQBUHIsEemfSITOi8f5QA"/>
     </profileApplication>

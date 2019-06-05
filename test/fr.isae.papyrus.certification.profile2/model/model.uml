@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:certificationProfile="http:///schemas/certificationProfile/_VNCF4IIqEemcgtS20UCkXg/19" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/certificationProfile/_VNCF4IIqEemcgtS20UCkXg/19 /fr.isae.papyrus.certification.profile/certification.profile.uml#_VNFJMIIqEemcgtS20UCkXg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:certificationProfile="http:///schemas/certificationProfile/_P-_rYIdnEemIcfqmN26Q0w/20" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/certificationProfile/_P-_rYIdnEemIcfqmN26Q0w/20 /fr.isae.papyrus.certification.profile/certification.profile.uml#_P_CHoIdnEemIcfqmN26Q0w">
   <uml:Model xmi:id="_6J-_0IHoEemcgtS20UCkXg" name="model">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_6NEwEIHoEemcgtS20UCkXg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -84,14 +84,17 @@
             <packagedElement xmi:type="uml:Class" xmi:id="_7xprAHxzEemJbcSLCw7ytg" name="Implementation Verification" classifierBehavior="_Tai3sICBEemNj7Hr1AGSTw" isActive="true">
               <ownedBehavior xmi:type="uml:Activity" xmi:id="_Tai3sICBEemNj7Hr1AGSTw" name="Implementation Verification"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_hjXIcHyPEemJbcSLCw7ytg" name="FHA" isActive="true">
-              <nestedClassifier xmi:type="uml:Activity" xmi:id="_57zW0IBcEemNj7Hr1AGSTw" name="FHA"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_YT8w4Id3EemIcfqmN26Q0w" name="PASA" classifierBehavior="_YT8w4Yd3EemIcfqmN26Q0w" isActive="true">
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_YT8w4Yd3EemIcfqmN26Q0w" name="PASA"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_JEphYHyQEemJbcSLCw7ytg" name="SSA/ASA" classifierBehavior="_Samj0IBkEemNj7Hr1AGSTw" isActive="true">
-              <ownedBehavior xmi:type="uml:Activity" xmi:id="_Samj0IBkEemNj7Hr1AGSTw" name="SSA/ASA"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_hjXIcHyPEemJbcSLCw7ytg" name="AFHA" classifierBehavior="_57zW0IBcEemNj7Hr1AGSTw" isActive="true">
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_57zW0IBcEemNj7Hr1AGSTw" name="AFHA"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_qUCT4HyPEemJbcSLCw7ytg" name="PSSA/PASA" classifierBehavior="_USOMwIBkEemNj7Hr1AGSTw" isActive="true">
-              <ownedBehavior xmi:type="uml:Activity" xmi:id="_USOMwIBkEemNj7Hr1AGSTw" name="PSSA/PASA"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_JEphYHyQEemJbcSLCw7ytg" name="SSA" classifierBehavior="_Samj0IBkEemNj7Hr1AGSTw" isActive="true">
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_Samj0IBkEemNj7Hr1AGSTw" name="SSA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_qUCT4HyPEemJbcSLCw7ytg" name="PSSA" classifierBehavior="_USOMwIBkEemNj7Hr1AGSTw" isActive="true">
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_USOMwIBkEemNj7Hr1AGSTw" name="PSSA"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_L5HNEHyQEemJbcSLCw7ytg" name="CCA" classifierBehavior="_W1nWkIBkEemNj7Hr1AGSTw" isActive="true">
               <ownedBehavior xmi:type="uml:Activity" xmi:id="_W1nWkIBkEemNj7Hr1AGSTw" name="CCA"/>
@@ -101,6 +104,12 @@
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_JJBUwHx0EemJbcSLCw7ytg" name="Integral processes" classifierBehavior="_kPQyEICBEemNj7Hr1AGSTw" isActive="true">
               <ownedBehavior xmi:type="uml:Activity" xmi:id="_kPQyEICBEemNj7Hr1AGSTw" name="Integral processes"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_w2w00Id2EemIcfqmN26Q0w" name="ASA" classifierBehavior="_w2w00Yd2EemIcfqmN26Q0w" isActive="true">
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_w2w00Yd2EemIcfqmN26Q0w" name="ASA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_ApJIcId3EemIcfqmN26Q0w" name="SFHA" classifierBehavior="_ApJIcYd3EemIcfqmN26Q0w" isActive="true">
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_ApJIcYd3EemIcfqmN26Q0w" name="SFHA"/>
             </packagedElement>
           </packagedElement>
         </packagedElement>
@@ -154,31 +163,31 @@
           </ownedBehavior>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_sJb3kIInEemcgtS20UCkXg" name="Development Planning activities">
-          <packagedElement xmi:type="uml:Class" xmi:id="_G-D_YIIiEemcgtS20UCkXg" name="Document planning elements">
-            <nestedClassifier xmi:type="uml:Activity" xmi:id="_G-D_YYIiEemcgtS20UCkXg" name="Document planning elements"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_G-D_YIIiEemcgtS20UCkXg" name="Document planning elements" classifierBehavior="_G-D_YYIiEemcgtS20UCkXg" isActive="true">
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_G-D_YYIiEemcgtS20UCkXg" name="Document planning elements"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_VZUkgIIhEemcgtS20UCkXg" name="Identify applicable processes and industry standards">
+          <packagedElement xmi:type="uml:Class" xmi:id="_VZUkgIIhEemcgtS20UCkXg" name="Identify applicable processes and industry standards" isActive="true">
             <nestedClassifier xmi:type="uml:Activity" xmi:id="_VZUkgYIhEemcgtS20UCkXg" name="Identify applicable processes and industry standards"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_a473YIHrEemcgtS20UCkXg" name="Identify development phases related to plan element" classifierBehavior="_aq_a4IFPEemmQrEckjY4Mw">
+          <packagedElement xmi:type="uml:Class" xmi:id="_a473YIHrEemcgtS20UCkXg" name="Identify development phases related to plan element" classifierBehavior="_aq_a4IFPEemmQrEckjY4Mw" isActive="true">
             <ownedBehavior xmi:type="uml:Activity" xmi:id="_aq_a4IFPEemmQrEckjY4Mw" name="Identify development phases related to plan element"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_FX4a0IIZEemcgtS20UCkXg" name="Identify how deviations to the plans will be handled">
+          <packagedElement xmi:type="uml:Class" xmi:id="_FX4a0IIZEemcgtS20UCkXg" name="Identify how deviations to the plans will be handled" isActive="true">
             <nestedClassifier xmi:type="uml:Activity" xmi:id="_LKmnYIIZEemcgtS20UCkXg" name="Identify how deviations to the plans will be handled"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_u0xeQIHsEemcgtS20UCkXg" name="Identify relationships or dependencies between planning elements" classifierBehavior="_3rfe8IH6EemcgtS20UCkXg">
+          <packagedElement xmi:type="uml:Class" xmi:id="_u0xeQIHsEemcgtS20UCkXg" name="Identify relationships or dependencies between planning elements" classifierBehavior="_3rfe8IH6EemcgtS20UCkXg" isActive="true">
             <ownedBehavior xmi:type="uml:Activity" xmi:id="_3rfe8IH6EemcgtS20UCkXg" name="Identify relationships or dependencies between planning elements"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_5xOaMIHrEemcgtS20UCkXg" name="Identify transition criteria for each of the phases within the development and integral processes" classifierBehavior="_8yNX0IFPEemmQrEckjY4Mw">
+          <packagedElement xmi:type="uml:Class" xmi:id="_5xOaMIHrEemcgtS20UCkXg" name="Identify transition criteria for each of the phases within the development and integral processes" classifierBehavior="_8yNX0IFPEemmQrEckjY4Mw" isActive="true">
             <ownedBehavior xmi:type="uml:Activity" xmi:id="_8yNX0IFPEemmQrEckjY4Mw" name="Identify transition criteria for each of the phases within the development and integral processes"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_xmrQEIHqEemcgtS20UCkXg" name="Identify which plan elements are needed and how they will be documented (i.e. all in one plan or in  individual plans)" classifierBehavior="_CuewsIFKEemmQrEckjY4Mw">
+          <packagedElement xmi:type="uml:Class" xmi:id="_xmrQEIHqEemcgtS20UCkXg" name="Identify which plan elements are needed and how they will be documented (i.e. all in one plan or in  individual plans)" classifierBehavior="_CuewsIFKEemmQrEckjY4Mw" isActive="true">
             <ownedBehavior xmi:type="uml:Activity" xmi:id="_CuewsIFKEemmQrEckjY4Mw" name="Identify which plan elements are needed and how they will be documented (i.e. all in one plan or in  individual plans)"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_VNdn4IIjEemcgtS20UCkXg" name="Review plans for accuracy, consistency, completeness">
+          <packagedElement xmi:type="uml:Class" xmi:id="_VNdn4IIjEemcgtS20UCkXg" name="Review plans for accuracy, consistency, completeness" isActive="true">
             <nestedClassifier xmi:type="uml:Activity" xmi:id="_VNdn4YIjEemcgtS20UCkXg" name="Review plans for accuracy, consistency, completeness"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_-DZfkIIjEemcgtS20UCkXg" name="Transition from planning to Development Processes">
+          <packagedElement xmi:type="uml:Class" xmi:id="_-DZfkIIjEemcgtS20UCkXg" name="Transition from planning to Development Processes" isActive="true">
             <nestedClassifier xmi:type="uml:Activity" xmi:id="_-DZfkYIjEemcgtS20UCkXg" name="Transition from planning to Development Processes"/>
           </packagedElement>
         </packagedElement>
@@ -232,9 +241,9 @@
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_zTDVkIEqEemmQrEckjY4Mw" name="CCA" behavior="_W1nWkIBkEemNj7Hr1AGSTw"/>
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_1qP2cIEqEemmQrEckjY4Mw" name="SSA" incoming="_TOMDMIEwEemmQrEckjY4Mw" behavior="_Samj0IBkEemNj7Hr1AGSTw"/>
         <node xmi:type="uml:CallBehaviorAction" xmi:id="_6IsXsIEqEemmQrEckjY4Mw" name="SFO" behavior="_YUMNYIBkEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_muceIIEtEemmQrEckjY4Mw" name="System-Level FHA" incoming="_-xFF0IEvEemmQrEckjY4Mw" outgoing="_QmQXoIEwEemmQrEckjY4Mw" behavior="_57zW0IBcEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_6WZ8MIEtEemmQrEckjY4Mw" name="PASA" incoming="_gwcjwIEvEemmQrEckjY4Mw" outgoing="_4f_iQIEvEemmQrEckjY4Mw" behavior="_USOMwIBkEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="__AOKgIEuEemmQrEckjY4Mw" name="ASA" behavior="_Samj0IBkEemNj7Hr1AGSTw"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_muceIIEtEemmQrEckjY4Mw" name="System-Level FHA" incoming="_-xFF0IEvEemmQrEckjY4Mw" outgoing="_QmQXoIEwEemmQrEckjY4Mw" behavior="_ApJIcYd3EemIcfqmN26Q0w"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="_6WZ8MIEtEemmQrEckjY4Mw" name="PASA" incoming="_gwcjwIEvEemmQrEckjY4Mw" outgoing="_4f_iQIEvEemmQrEckjY4Mw" behavior="_YT8w4Yd3EemIcfqmN26Q0w"/>
+        <node xmi:type="uml:CallBehaviorAction" xmi:id="__AOKgIEuEemmQrEckjY4Mw" name="ASA" behavior="_w2w00Yd2EemIcfqmN26Q0w"/>
         <node xmi:type="uml:ForkNode" xmi:id="_KkBk4IEvEemmQrEckjY4Mw" incoming="_TPeSEIEvEemmQrEckjY4Mw" outgoing="_b9r_YIEvEemmQrEckjY4Mw _gwcjwIEvEemmQrEckjY4Mw" inPartition="_SD6asIErEemmQrEckjY4Mw"/>
         <node xmi:type="uml:JoinNode" xmi:id="_12_fsIEvEemmQrEckjY4Mw" name="" incoming="_4f_iQIEvEemmQrEckjY4Mw _8XW1YIEvEemmQrEckjY4Mw" outgoing="_-xFF0IEvEemmQrEckjY4Mw" inPartition="_SD6asIErEemmQrEckjY4Mw"/>
       </packagedElement>
@@ -305,28 +314,15 @@
         <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
       </profileApplication>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4zafoHxwEemJbcSLCw7ytg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_an0TkIIqEemcgtS20UCkXg" source="PapyrusVersion">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_an0TkYIqEemcgtS20UCkXg" key="Version" value="0.0.20"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_an0TkoIqEemcgtS20UCkXg" key="Comment" value=""/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_an0Tk4IqEemcgtS20UCkXg" key="Copyright" value=""/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_an0TlIIqEemcgtS20UCkXg" key="Date" value="2019-05-29"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_an0TlYIqEemcgtS20UCkXg" key="Author" value=""/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4T_ZMIdnEemIcfqmN26Q0w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4T_ZMYdnEemIcfqmN26Q0w" key="Version" value="0.0.21"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4T_ZModnEemIcfqmN26Q0w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4T_ZM4dnEemIcfqmN26Q0w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4T_ZNIdnEemIcfqmN26Q0w" key="Date" value="2019-06-05"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4T_ZNYdnEemIcfqmN26Q0w" key="Author" value=""/>
         </eAnnotations>
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4zbGsHxwEemJbcSLCw7ytg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <references xmi:type="ecore:EPackage" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_VNFJMIIqEemcgtS20UCkXg"/>
-        </eAnnotations>
-        <appliedProfile xmi:type="uml:Profile" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_fnQBUHIsEemfSITOi8f5QA"/>
-      </profileApplication>
-      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4zafoHxwEemJbcSLCw7ytg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_an0TkIIqEemcgtS20UCkXg" source="PapyrusVersion">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_an0TkYIqEemcgtS20UCkXg" key="Version" value="0.0.20"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_an0TkoIqEemcgtS20UCkXg" key="Comment" value=""/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_an0Tk4IqEemcgtS20UCkXg" key="Copyright" value=""/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_an0TlIIqEemcgtS20UCkXg" key="Date" value="2019-05-29"/>
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_an0TlYIqEemcgtS20UCkXg" key="Author" value=""/>
-        </eAnnotations>
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4zbGsHxwEemJbcSLCw7ytg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <references xmi:type="ecore:EPackage" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_VNFJMIIqEemcgtS20UCkXg"/>
+          <references xmi:type="ecore:EPackage" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_P_CHoIdnEemIcfqmN26Q0w"/>
         </eAnnotations>
         <appliedProfile xmi:type="uml:Profile" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_fnQBUHIsEemfSITOi8f5QA"/>
       </profileApplication>
@@ -391,32 +387,19 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_6PWA8IHoEemcgtS20UCkXg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__hCooIIrEemcgtS20UCkXg" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__hCooYIrEemcgtS20UCkXg" key="Version" value="0.0.20"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__hCoooIrEemcgtS20UCkXg" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__hCoo4IrEemcgtS20UCkXg" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__hCopIIrEemcgtS20UCkXg" key="Date" value="2019-05-29"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__hCopYIrEemcgtS20UCkXg" key="Author" value=""/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PWA8YHoEemcgtS20UCkXg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_VNFJMIIqEemcgtS20UCkXg"/>
-      </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_fnQBUHIsEemfSITOi8f5QA"/>
-    </profileApplication>
   </uml:Model>
   <certificationProfile:Process xmi:id="_5IKgQHxzEemJbcSLCw7ytg" base_Class="_5IJSIHxzEemJbcSLCw7ytg" semantics="Validation of requirements at the next highest level" nextprocess="_lV-A0H4jEem6Cfa7eDdxWw"/>
   <certificationProfile:Attribute xmi:id="_ibuZ4H36Eem6Cfa7eDdxWw" base_Property="_ibVYUX36Eem6Cfa7eDdxWw" updateTime="1996" semantics="Validation Plan" content="7.7.1"/>
   <certificationProfile:Process xmi:id="_ib2VsH36Eem6Cfa7eDdxWw" base_Class="_ibVYUH36Eem6Cfa7eDdxWw" semantics="Identification of function requirements derived from the development process, safey requirements derived from the safety assessment"/>
-  <certificationProfile:Process xmi:id="_qUDiEnyPEemJbcSLCw7ytg" base_Class="_qUCT4HyPEemJbcSLCw7ytg" semantics="Preliminary System/Aircraft Safety Assessment"/>
+  <certificationProfile:Process xmi:id="_qUDiEnyPEemJbcSLCw7ytg" base_Class="_qUCT4HyPEemJbcSLCw7ytg" semantics="Preliminary System Safety Assessment"/>
   <certificationProfile:Process xmi:id="_jXLMYH10EemqgvJYv7NT4g" base_Class="_jXHiAH10EemqgvJYv7NT4g" semantics="Development Assurance Level Assignment"/>
   <certificationProfile:Process xmi:id="_Rovw4H12EemqgvJYv7NT4g" base_Class="_PJgHQH12EemqgvJYv7NT4g" semantics="Process Assurance" nextprocess="_lV-A0H4jEem6Cfa7eDdxWw"/>
-  <certificationProfile:Process xmi:id="_lR_WUHyPEemJbcSLCw7ytg" base_Class="_hjXIcHyPEemJbcSLCw7ytg" semantics="Functional Hazard Assessment"/>
+  <certificationProfile:Process xmi:id="_lR_WUHyPEemJbcSLCw7ytg" base_Class="_hjXIcHyPEemJbcSLCw7ytg" semantics="Aircraft Functional Hazard Assessment"/>
   <certificationProfile:Process xmi:id="_VloVsHyQEemJbcSLCw7ytg" base_Class="_VlnHkHyQEemJbcSLCw7ytg" semantics="Safety-Related Flight Operations or Maintenance Tasks"/>
   <certificationProfile:Process xmi:id="_AKDWAHxxEemJbcSLCw7ytg" base_Class="_7fu78HxwEemJbcSLCw7ytg" semantics="Certification of Complex or Highly-integrated Aircraft System"/>
   <certificationProfile:Process xmi:id="_i5_mEH4BEem6Cfa7eDdxWw" base_Class="_i59J0H4BEem6Cfa7eDdxWw" semantics="establish the appropriate grouping of aircraft functions and the allocation of requirements for these functions to systems" nextprocess="_zGZjQH4BEem6Cfa7eDdxWw"/>
   <certificationProfile:Attribute xmi:id="_XeLywHyQEemJbcSLCw7ytg" base_Property="_XeKkoHyQEemJbcSLCw7ytg" updateTime="1996" semantics="Validation Plan" content="7.7.1"/>
-  <certificationProfile:Process xmi:id="_JErWkHyQEemJbcSLCw7ytg" base_Class="_JEphYHyQEemJbcSLCw7ytg" semantics="System/Aircraft Safety Assessment"/>
+  <certificationProfile:Process xmi:id="_JErWkHyQEemJbcSLCw7ytg" base_Class="_JEphYHyQEemJbcSLCw7ytg" semantics="System Safety Assessment"/>
   <certificationProfile:Process xmi:id="_lV-A0H4jEem6Cfa7eDdxWw" base_Class="_lV8LoH4jEem6Cfa7eDdxWw" semantics="System Implementation" nextprocess="_AKDWAHxxEemJbcSLCw7ytg"/>
   <certificationProfile:Process xmi:id="_6knoWn4BEem6Cfa7eDdxWw" base_Class="_6kmaMH4BEem6Cfa7eDdxWw" semantics="System Implementation" nextprocess="_7xq5MnxzEemJbcSLCw7ytg"/>
   <certificationProfile:Process xmi:id="_7xq5MnxzEemJbcSLCw7ytg" base_Class="_7xprAHxzEemJbcSLCw7ytg" semantics="Verification" nextprocess="_lV-A0H4jEem6Cfa7eDdxWw"/>
@@ -431,7 +414,7 @@
   <certificationProfile:Attribute xmi:id="_NHNNUnyPEemJbcSLCw7ytg" base_Property="_NHLYIHyPEemJbcSLCw7ytg" updateTime="1996" semantics="Compliance substantiation" content="4.3"/>
   <certificationProfile:Process xmi:id="_DlqyEH4CEem6Cfa7eDdxWw" base_Class="_Dlo84H4CEem6Cfa7eDdxWw" semantics="Allocation of Aircraft function to Systems"/>
   <certificationProfile:Attribute xmi:id="_8FlfYHyOEemJbcSLCw7ytg" base_Property="_59pigHyOEemJbcSLCw7ytg" updateTime="1996" semantics="Certification Data" content="4.4"/>
-  <certificationProfile:Process xmi:id="_xBxn8HxzEemJbcSLCw7ytg" base_Class="_-j4CYHxwEemJbcSLCw7ytg" subprocess="_lR_WUHyPEemJbcSLCw7ytg _qUDiEnyPEemJbcSLCw7ytg _JErWkHyQEemJbcSLCw7ytg _L5IbMHyQEemJbcSLCw7ytg _VloVsHyQEemJbcSLCw7ytg" semantics="Safety Assessment of Aircraft or System functions, architectures or implementations, induce safety requirements" nextprocess="_lV-A0H4jEem6Cfa7eDdxWw"/>
+  <certificationProfile:Process xmi:id="_xBxn8HxzEemJbcSLCw7ytg" base_Class="_-j4CYHxwEemJbcSLCw7ytg" subprocess="_lR_WUHyPEemJbcSLCw7ytg _qUDiEnyPEemJbcSLCw7ytg _JErWkHyQEemJbcSLCw7ytg _L5IbMHyQEemJbcSLCw7ytg _VloVsHyQEemJbcSLCw7ytg _YT9X8Id3EemIcfqmN26Q0w _w2xb4Id2EemIcfqmN26Q0w _ApJvgId3EemIcfqmN26Q0w" semantics="Safety Assessment of Aircraft or System functions, architectures or implementations, induce safety requirements" nextprocess="_lV-A0H4jEem6Cfa7eDdxWw"/>
   <certificationProfile:Activity xmi:id="_2GS2AIHqEemcgtS20UCkXg" base_Class="_xmrQEIHqEemcgtS20UCkXg"/>
   <certificationProfile:Activity xmi:id="_mpPcsIHrEemcgtS20UCkXg" base_Class="_a473YIHrEemcgtS20UCkXg"/>
   <certificationProfile:Activity xmi:id="_9SgvoIHrEemcgtS20UCkXg" base_Class="_5xOaMIHrEemcgtS20UCkXg"/>
@@ -441,4 +424,7 @@
   <certificationProfile:Activity xmi:id="_ErKTMIIjEemcgtS20UCkXg" base_Class="_VZUkgIIhEemcgtS20UCkXg"/>
   <certificationProfile:Activity xmi:id="_VNeO8IIjEemcgtS20UCkXg" base_Class="_VNdn4IIjEemcgtS20UCkXg"/>
   <certificationProfile:Activity xmi:id="_-DaGoIIjEemcgtS20UCkXg" base_Class="_-DZfkIIjEemcgtS20UCkXg"/>
+  <certificationProfile:Process xmi:id="_w2xb4Id2EemIcfqmN26Q0w" base_Class="_w2w00Id2EemIcfqmN26Q0w" semantics="Aircraft Safety Assessment"/>
+  <certificationProfile:Process xmi:id="_ApJvgId3EemIcfqmN26Q0w" base_Class="_ApJIcId3EemIcfqmN26Q0w" semantics="System Functional Hazard Assessment"/>
+  <certificationProfile:Process xmi:id="_YT9X8Id3EemIcfqmN26Q0w" base_Class="_YT8w4Id3EemIcfqmN26Q0w" semantics="Preliminary Aircraft Safety Assessment"/>
 </xmi:XMI>

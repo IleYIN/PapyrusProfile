@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:certificationProfile="http:///schemas/certificationProfile/_P-_rYIdnEemIcfqmN26Q0w/20" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/certificationProfile/_P-_rYIdnEemIcfqmN26Q0w/20 /fr.isae.papyrus.certification.profile/certification.profile.uml#_P_CHoIdnEemIcfqmN26Q0w">
-  <uml:Model xmi:id="_6J-_0IHoEemcgtS20UCkXg" name="model">
-    <packageImport xmi:type="uml:PackageImport" xmi:id="_6NEwEIHoEemcgtS20UCkXg">
-      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
-    </packageImport>
-    <packageImport xmi:type="uml:PackageImport" xmi:id="_6NPIIIHoEemcgtS20UCkXg">
-      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
-    </packageImport>
-    <packagedElement xmi:type="uml:Model" xmi:id="_zc_xYHxsEemJbcSLCw7ytg" name="SAE_ARP4754">
-      <packageImport xmi:type="uml:PackageImport" xmi:id="_zgULIHxsEemJbcSLCw7ytg">
+  <uml:Model xmi:id="_zc_xYHxsEemJbcSLCw7ytg" name="SAE_ARP4754">
+       <packageImport xmi:type="uml:PackageImport" xmi:id="_zgULIHxsEemJbcSLCw7ytg">
         <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
       </packageImport>
       <packageImport xmi:type="uml:PackageImport" xmi:id="_zgd8IHxsEemJbcSLCw7ytg">
@@ -79,6 +72,7 @@
               <ownedAttribute xmi:type="uml:Property" xmi:id="_XeKkoHyQEemJbcSLCw7ytg" name="Validation plan">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedAttribute>
+              <ownedAttribute xmi:type="uml:Port" xmi:id="_lt0BEIePEemIcfqmN26Q0w" name="Port3" aggregation="composite"/>
               <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZxQiIICBEemNj7Hr1AGSTw" name="Requirements Validation"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_7xprAHxzEemJbcSLCw7ytg" name="Implementation Verification" classifierBehavior="_Tai3sICBEemNj7Hr1AGSTw" isActive="true">
@@ -94,6 +88,7 @@
               <ownedBehavior xmi:type="uml:Activity" xmi:id="_Samj0IBkEemNj7Hr1AGSTw" name="SSA"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_qUCT4HyPEemJbcSLCw7ytg" name="PSSA" classifierBehavior="_USOMwIBkEemNj7Hr1AGSTw" isActive="true">
+              <ownedAttribute xmi:type="uml:Port" xmi:id="_MOWHoIeQEemIcfqmN26Q0w" name="Port2" aggregation="composite"/>
               <ownedBehavior xmi:type="uml:Activity" xmi:id="_USOMwIBkEemNj7Hr1AGSTw" name="PSSA"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_L5HNEHyQEemJbcSLCw7ytg" name="CCA" classifierBehavior="_W1nWkIBkEemNj7Hr1AGSTw" isActive="true">
@@ -191,7 +186,6 @@
             <nestedClassifier xmi:type="uml:Activity" xmi:id="_-DZfkYIjEemcgtS20UCkXg" name="Transition from planning to Development Processes"/>
           </packagedElement>
         </packagedElement>
-      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_IwBnQH13EemqgvJYv7NT4g" name="Agreement processes">
         <packagedElement xmi:type="uml:Class" xmi:id="_7fu78HxwEemJbcSLCw7ytg" name="Certification Coordination" classifierBehavior="_EHERIICCEemNj7Hr1AGSTw" isActive="true">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_59pigHyOEemJbcSLCw7ytg" name="Certfication Data">
@@ -427,4 +421,6 @@
   <certificationProfile:Process xmi:id="_w2xb4Id2EemIcfqmN26Q0w" base_Class="_w2w00Id2EemIcfqmN26Q0w" semantics="Aircraft Safety Assessment"/>
   <certificationProfile:Process xmi:id="_ApJvgId3EemIcfqmN26Q0w" base_Class="_ApJIcId3EemIcfqmN26Q0w" semantics="System Functional Hazard Assessment"/>
   <certificationProfile:Process xmi:id="_YT9X8Id3EemIcfqmN26Q0w" base_Class="_YT8w4Id3EemIcfqmN26Q0w" semantics="Preliminary Aircraft Safety Assessment"/>
+  <certificationProfile:Artefact xmi:id="_DgCTsIeQEemIcfqmN26Q0w" base_Port="_lt0BEIePEemIcfqmN26Q0w"/>
+  <certificationProfile:Artefact xmi:id="_NPSnQIeQEemIcfqmN26Q0w" base_Port="_MOWHoIeQEemIcfqmN26Q0w"/>
 </xmi:XMI>

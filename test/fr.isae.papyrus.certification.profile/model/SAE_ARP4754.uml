@@ -73,21 +73,25 @@
             <ownedAttribute xmi:type="uml:Property" xmi:id="_ibVYUX36Eem6Cfa7eDdxWw" name="Validation plan">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_caxekIkzEemgnax7QKuu0Q" name="Aircraft functions_in" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_gIBzcIkzEemgnax7QKuu0Q" name="Failure Condition, Effects, Classification, Safety Requirements_in" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_1QF4II2uEemaWLAk3anhLw" name="Requirements_out" aggregation="composite"/>
             <ownedBehavior xmi:type="uml:Activity" xmi:id="_dDE4MICBEemNj7Hr1AGSTw" name="Requirements Capture"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_5IJSIHxzEemJbcSLCw7ytg" name="Requirements Validation" classifierBehavior="_ZxQiIICBEemNj7Hr1AGSTw" isActive="true">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_XeKkoHyQEemJbcSLCw7ytg" name="Validation plan">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_3uMSQI2uEemaWLAk3anhLw" name="Requirements_in" aggregation="composite"/>
             <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZxQiIICBEemNj7Hr1AGSTw" name="Requirements Validation"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_7xprAHxzEemJbcSLCw7ytg" name="Implementation Verification" classifierBehavior="_Tai3sICBEemNj7Hr1AGSTw" isActive="true">
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_RPUecIehEemIcfqmN26Q0w" name="Physical system_out" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Port" xmi:id="_WC27YIegEemIcfqmN26Q0w" name="Implementation_out" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Port" xmi:id="_WC3icIegEemIcfqmN26Q0w" name="System Architecture_in" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Port" xmi:id="_0bOA8IegEemIcfqmN26Q0w" name="Seperation &amp; Verification_in" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Port" xmi:id="_AZ2WIIehEemIcfqmN26Q0w" name="SSA results_in" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Port" xmi:id="_HlKGQIehEemIcfqmN26Q0w" name="ASA results_in" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_RPUecIehEemIcfqmN26Q0w" name="Physical system_out" aggregation="composite"/>
             <ownedBehavior xmi:type="uml:Activity" xmi:id="_Tai3sICBEemNj7Hr1AGSTw" name="Implementation Verification"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_YT8w4Id3EemIcfqmN26Q0w" name="PASA" classifierBehavior="_YT8w4Yd3EemIcfqmN26Q0w" isActive="true">
@@ -203,7 +207,7 @@
           <node xmi:type="uml:CallBehaviorAction" xmi:id="_hmI0wIIjEemcgtS20UCkXg" name="Review plans for accuracy, consistency, completeness" incoming="_wRo_4IIjEemcgtS20UCkXg _QTCqYIIlEemcgtS20UCkXg" outgoing="_xuKy0IIkEemcgtS20UCkXg" behavior="_VNdn4YIjEemcgtS20UCkXg"/>
           <node xmi:type="uml:CallBehaviorAction" xmi:id="_fCRUYIIkEemcgtS20UCkXg" name="Transition from planning to Development Processes" incoming="_z6EpsIIkEemcgtS20UCkXg" outgoing="_oGFo0IIlEemcgtS20UCkXg" behavior="_-DZfkYIjEemcgtS20UCkXg"/>
           <node xmi:type="uml:DecisionNode" xmi:id="_nIQkEIIkEemcgtS20UCkXg" name="Plan elements sufficient?" incoming="_xuKy0IIkEemcgtS20UCkXg" outgoing="_z6EpsIIkEemcgtS20UCkXg _QTCqYIIlEemcgtS20UCkXg"/>
-          <node xmi:type="uml:ActivityFinalNode" xmi:id="_nK39wIIlEemcgtS20UCkXg" name="ActivityFinalNode23" incoming="_oGFo0IIlEemcgtS20UCkXg"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_nK39wIIlEemcgtS20UCkXg" incoming="_oGFo0IIlEemcgtS20UCkXg"/>
         </ownedBehavior>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_sJb3kIInEemcgtS20UCkXg" name="Development Planning activities">
@@ -249,47 +253,6 @@
           <ownedAttribute xmi:type="uml:Port" xmi:id="_bvMWoIehEemIcfqmN26Q0w" name="Physical system_in" aggregation="composite"/>
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_EHERIICCEemNj7Hr1AGSTw" name="Certification Coordination"/>
         </packagedElement>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Activity" xmi:id="_xiZ98ICTEemNj7Hr1AGSTw" name="progresses" node="_OV6lkICUEemNj7Hr1AGSTw _j6ObkICUEemNj7Hr1AGSTw _-pey0ICcEemNj7Hr1AGSTw _cAkVQIEkEemmQrEckjY4Mw _eut9kIEkEemmQrEckjY4Mw _pC_pwIEkEemmQrEckjY4Mw _q_fysIEkEemmQrEckjY4Mw _ic-wUIEqEemmQrEckjY4Mw _uPU9AIEqEemmQrEckjY4Mw _x_qbEIEqEemmQrEckjY4Mw _zTDVkIEqEemmQrEckjY4Mw _1qP2cIEqEemmQrEckjY4Mw _6IsXsIEqEemmQrEckjY4Mw _muceIIEtEemmQrEckjY4Mw _6WZ8MIEtEemmQrEckjY4Mw __AOKgIEuEemmQrEckjY4Mw _KkBk4IEvEemmQrEckjY4Mw _12_fsIEvEemmQrEckjY4Mw" group="_D3xzgIEoEemmQrEckjY4Mw _SD6asIErEemmQrEckjY4Mw">
-        <edge xmi:type="uml:ControlFlow" xmi:id="_pJtYMICUEemNj7Hr1AGSTw" target="_j6ObkICUEemNj7Hr1AGSTw" source="_OV6lkICUEemNj7Hr1AGSTw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_n0xPcICdEemNj7Hr1AGSTw" target="_-pey0ICcEemNj7Hr1AGSTw" source="_j6ObkICUEemNj7Hr1AGSTw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_4KX4kIEkEemmQrEckjY4Mw" target="_cAkVQIEkEemmQrEckjY4Mw" source="_-pey0ICcEemNj7Hr1AGSTw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_46l0kIEkEemmQrEckjY4Mw" target="_eut9kIEkEemmQrEckjY4Mw" source="_cAkVQIEkEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_8TXuQIEkEemmQrEckjY4Mw" target="_pC_pwIEkEemmQrEckjY4Mw" source="_eut9kIEkEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="__e_VsIEkEemmQrEckjY4Mw" target="_q_fysIEkEemmQrEckjY4Mw" source="_pC_pwIEkEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_IrAcgIEpEemmQrEckjY4Mw" target="_-pey0ICcEemNj7Hr1AGSTw" source="_cAkVQIEkEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_JfRyEIEpEemmQrEckjY4Mw" target="_cAkVQIEkEemmQrEckjY4Mw" source="_eut9kIEkEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_Kn5nAIEpEemmQrEckjY4Mw" target="_eut9kIEkEemmQrEckjY4Mw" source="_pC_pwIEkEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_LY93kIEpEemmQrEckjY4Mw" target="_pC_pwIEkEemmQrEckjY4Mw" source="_q_fysIEkEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_pDoUMIEqEemmQrEckjY4Mw" target="_ic-wUIEqEemmQrEckjY4Mw" source="_q_fysIEkEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_TPeSEIEvEemmQrEckjY4Mw" target="_KkBk4IEvEemmQrEckjY4Mw" source="_-pey0ICcEemNj7Hr1AGSTw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_b9r_YIEvEemmQrEckjY4Mw" target="_uPU9AIEqEemmQrEckjY4Mw" source="_KkBk4IEvEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_gwcjwIEvEemmQrEckjY4Mw" target="_6WZ8MIEtEemmQrEckjY4Mw" source="_KkBk4IEvEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_4f_iQIEvEemmQrEckjY4Mw" target="_12_fsIEvEemmQrEckjY4Mw" source="_6WZ8MIEtEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_8XW1YIEvEemmQrEckjY4Mw" target="_12_fsIEvEemmQrEckjY4Mw" source="_uPU9AIEqEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_-xFF0IEvEemmQrEckjY4Mw" target="_muceIIEtEemmQrEckjY4Mw" source="_12_fsIEvEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_QmQXoIEwEemmQrEckjY4Mw" target="_x_qbEIEqEemmQrEckjY4Mw" source="_muceIIEtEemmQrEckjY4Mw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_TOMDMIEwEemmQrEckjY4Mw" target="_1qP2cIEqEemmQrEckjY4Mw" source="_x_qbEIEqEemmQrEckjY4Mw"/>
-        <group xmi:type="uml:ActivityPartition" xmi:id="_D3xzgIEoEemmQrEckjY4Mw" name="Aircraft or System Development" node="_-pey0ICcEemNj7Hr1AGSTw _cAkVQIEkEemmQrEckjY4Mw _eut9kIEkEemmQrEckjY4Mw _pC_pwIEkEemmQrEckjY4Mw _q_fysIEkEemmQrEckjY4Mw" represents="_5LfRAIBYEemNj7Hr1AGSTw"/>
-        <group xmi:type="uml:ActivityPartition" xmi:id="_SD6asIErEemmQrEckjY4Mw" name="Safety Assessement" node="_KkBk4IEvEemmQrEckjY4Mw _12_fsIEvEemmQrEckjY4Mw"/>
-        <node xmi:type="uml:InitialNode" xmi:id="_OV6lkICUEemNj7Hr1AGSTw" outgoing="_pJtYMICUEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_j6ObkICUEemNj7Hr1AGSTw" name="Development Planning" incoming="_pJtYMICUEemNj7Hr1AGSTw" outgoing="_n0xPcICdEemNj7Hr1AGSTw" behavior="__78UgICBEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_-pey0ICcEemNj7Hr1AGSTw" name="Development of Aircraft function" incoming="_n0xPcICdEemNj7Hr1AGSTw _IrAcgIEpEemmQrEckjY4Mw" outgoing="_4KX4kIEkEemmQrEckjY4Mw _TPeSEIEvEemmQrEckjY4Mw" inPartition="_D3xzgIEoEemmQrEckjY4Mw" behavior="_OVln4H5DEem6Cfa7eDdxWw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_cAkVQIEkEemmQrEckjY4Mw" name="Allocation of Aircraft functions to Systems" incoming="_4KX4kIEkEemmQrEckjY4Mw _JfRyEIEpEemmQrEckjY4Mw" outgoing="_46l0kIEkEemmQrEckjY4Mw _IrAcgIEpEemmQrEckjY4Mw" inPartition="_D3xzgIEoEemmQrEckjY4Mw" behavior="_rfQFsH5DEem6Cfa7eDdxWw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_eut9kIEkEemmQrEckjY4Mw" name="Development of System Architecture" incoming="_46l0kIEkEemmQrEckjY4Mw _Kn5nAIEpEemmQrEckjY4Mw" outgoing="_8TXuQIEkEemmQrEckjY4Mw _JfRyEIEpEemmQrEckjY4Mw" inPartition="_D3xzgIEoEemmQrEckjY4Mw" behavior="_s7rsQIBYEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_pC_pwIEkEemmQrEckjY4Mw" name="Allocation of System Requirements to Items" incoming="_8TXuQIEkEemmQrEckjY4Mw _LY93kIEpEemmQrEckjY4Mw" outgoing="__e_VsIEkEemmQrEckjY4Mw _Kn5nAIEpEemmQrEckjY4Mw" inPartition="_D3xzgIEoEemmQrEckjY4Mw" behavior="_1Q2ncIBYEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_q_fysIEkEemmQrEckjY4Mw" name="System Implementation" incoming="__e_VsIEkEemmQrEckjY4Mw" outgoing="_LY93kIEpEemmQrEckjY4Mw _pDoUMIEqEemmQrEckjY4Mw" inPartition="_D3xzgIEoEemmQrEckjY4Mw" behavior="_yf7X8IBYEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_ic-wUIEqEemmQrEckjY4Mw" name="Implementation Verification" incoming="_pDoUMIEqEemmQrEckjY4Mw" behavior="_Tai3sICBEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_uPU9AIEqEemmQrEckjY4Mw" name="Aircraft Level FHA" incoming="_b9r_YIEvEemmQrEckjY4Mw" outgoing="_8XW1YIEvEemmQrEckjY4Mw" behavior="_57zW0IBcEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_x_qbEIEqEemmQrEckjY4Mw" name="PSSA" incoming="_QmQXoIEwEemmQrEckjY4Mw" outgoing="_TOMDMIEwEemmQrEckjY4Mw" behavior="_USOMwIBkEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_zTDVkIEqEemmQrEckjY4Mw" name="CCA" behavior="_W1nWkIBkEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_1qP2cIEqEemmQrEckjY4Mw" name="SSA" incoming="_TOMDMIEwEemmQrEckjY4Mw" behavior="_Samj0IBkEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_6IsXsIEqEemmQrEckjY4Mw" name="SFO" behavior="_YUMNYIBkEemNj7Hr1AGSTw"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_muceIIEtEemmQrEckjY4Mw" name="System-Level FHA" incoming="_-xFF0IEvEemmQrEckjY4Mw" outgoing="_QmQXoIEwEemmQrEckjY4Mw" behavior="_ApJIcYd3EemIcfqmN26Q0w"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="_6WZ8MIEtEemmQrEckjY4Mw" name="PASA" incoming="_gwcjwIEvEemmQrEckjY4Mw" outgoing="_4f_iQIEvEemmQrEckjY4Mw" behavior="_YT8w4Yd3EemIcfqmN26Q0w"/>
-        <node xmi:type="uml:CallBehaviorAction" xmi:id="__AOKgIEuEemmQrEckjY4Mw" name="ASA" behavior="_w2w00Yd2EemIcfqmN26Q0w"/>
-        <node xmi:type="uml:ForkNode" xmi:id="_KkBk4IEvEemmQrEckjY4Mw" incoming="_TPeSEIEvEemmQrEckjY4Mw" outgoing="_b9r_YIEvEemmQrEckjY4Mw _gwcjwIEvEemmQrEckjY4Mw" inPartition="_SD6asIErEemmQrEckjY4Mw"/>
-        <node xmi:type="uml:JoinNode" xmi:id="_12_fsIEvEemmQrEckjY4Mw" name="" incoming="_4f_iQIEvEemmQrEckjY4Mw _8XW1YIEvEemmQrEckjY4Mw" outgoing="_-xFF0IEvEemmQrEckjY4Mw" inPartition="_SD6asIErEemmQrEckjY4Mw"/>
       </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zgKaIHxsEemJbcSLCw7ytg">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zgNdcHxsEemJbcSLCw7ytg" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -370,6 +333,58 @@
         </eAnnotations>
         <appliedProfile xmi:type="uml:Profile" href="/fr.isae.papyrus.certification.profile/certification.profile.uml#_fnQBUHIsEemfSITOi8f5QA"/>
       </profileApplication>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_xiZ98ICTEemNj7Hr1AGSTw" name="progresses" node="_OV6lkICUEemNj7Hr1AGSTw _j6ObkICUEemNj7Hr1AGSTw _-pey0ICcEemNj7Hr1AGSTw _cAkVQIEkEemmQrEckjY4Mw _eut9kIEkEemmQrEckjY4Mw _pC_pwIEkEemmQrEckjY4Mw _q_fysIEkEemmQrEckjY4Mw _ic-wUIEqEemmQrEckjY4Mw _uPU9AIEqEemmQrEckjY4Mw _x_qbEIEqEemmQrEckjY4Mw _zTDVkIEqEemmQrEckjY4Mw _1qP2cIEqEemmQrEckjY4Mw _6IsXsIEqEemmQrEckjY4Mw _muceIIEtEemmQrEckjY4Mw _6WZ8MIEtEemmQrEckjY4Mw __AOKgIEuEemmQrEckjY4Mw _KkBk4IEvEemmQrEckjY4Mw _12_fsIEvEemmQrEckjY4Mw" group="_D3xzgIEoEemmQrEckjY4Mw _SD6asIErEemmQrEckjY4Mw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_pJtYMICUEemNj7Hr1AGSTw" target="_j6ObkICUEemNj7Hr1AGSTw" source="_OV6lkICUEemNj7Hr1AGSTw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_n0xPcICdEemNj7Hr1AGSTw" target="_-pey0ICcEemNj7Hr1AGSTw" source="_j6ObkICUEemNj7Hr1AGSTw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_4KX4kIEkEemmQrEckjY4Mw" target="_cAkVQIEkEemmQrEckjY4Mw" source="_-pey0ICcEemNj7Hr1AGSTw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_46l0kIEkEemmQrEckjY4Mw" target="_eut9kIEkEemmQrEckjY4Mw" source="_cAkVQIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_8TXuQIEkEemmQrEckjY4Mw" target="_pC_pwIEkEemmQrEckjY4Mw" source="_eut9kIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="__e_VsIEkEemmQrEckjY4Mw" target="_q_fysIEkEemmQrEckjY4Mw" source="_pC_pwIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_IrAcgIEpEemmQrEckjY4Mw" target="_-pey0ICcEemNj7Hr1AGSTw" source="_cAkVQIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_JfRyEIEpEemmQrEckjY4Mw" target="_cAkVQIEkEemmQrEckjY4Mw" source="_eut9kIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Kn5nAIEpEemmQrEckjY4Mw" target="_eut9kIEkEemmQrEckjY4Mw" source="_pC_pwIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_LY93kIEpEemmQrEckjY4Mw" target="_pC_pwIEkEemmQrEckjY4Mw" source="_q_fysIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_pDoUMIEqEemmQrEckjY4Mw" target="_ic-wUIEqEemmQrEckjY4Mw" source="_q_fysIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_TPeSEIEvEemmQrEckjY4Mw" target="_KkBk4IEvEemmQrEckjY4Mw" source="_-pey0ICcEemNj7Hr1AGSTw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_b9r_YIEvEemmQrEckjY4Mw" target="_uPU9AIEqEemmQrEckjY4Mw" source="_KkBk4IEvEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_gwcjwIEvEemmQrEckjY4Mw" target="_6WZ8MIEtEemmQrEckjY4Mw" source="_KkBk4IEvEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_4f_iQIEvEemmQrEckjY4Mw" target="_12_fsIEvEemmQrEckjY4Mw" source="_6WZ8MIEtEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_8XW1YIEvEemmQrEckjY4Mw" target="_12_fsIEvEemmQrEckjY4Mw" source="_uPU9AIEqEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_-xFF0IEvEemmQrEckjY4Mw" target="_muceIIEtEemmQrEckjY4Mw" source="_12_fsIEvEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_QmQXoIEwEemmQrEckjY4Mw" target="_x_qbEIEqEemmQrEckjY4Mw" source="_muceIIEtEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_TOMDMIEwEemmQrEckjY4Mw" target="_1qP2cIEqEemmQrEckjY4Mw" source="_x_qbEIEqEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_JdR3oIkkEemgnax7QKuu0Q" target="_zTDVkIEqEemmQrEckjY4Mw" source="_uPU9AIEqEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_VLnHAIkkEemgnax7QKuu0Q" target="_zTDVkIEqEemmQrEckjY4Mw" source="_muceIIEtEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="__bKdAIkkEemgnax7QKuu0Q" target="_ic-wUIEqEemmQrEckjY4Mw" source="_1qP2cIEqEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_BsC6gIklEemgnax7QKuu0Q" target="_ic-wUIEqEemmQrEckjY4Mw" source="__AOKgIEuEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_OE3RUIklEemgnax7QKuu0Q" target="_eut9kIEkEemmQrEckjY4Mw" source="_muceIIEtEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_O80NAIklEemgnax7QKuu0Q" target="_eut9kIEkEemmQrEckjY4Mw" source="_x_qbEIEqEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_YBEbwIklEemgnax7QKuu0Q" target="_pC_pwIEkEemmQrEckjY4Mw" source="_x_qbEIEqEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_f1CHUIklEemgnax7QKuu0Q" target="_1qP2cIEqEemmQrEckjY4Mw" source="_q_fysIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_xJTEcIklEemgnax7QKuu0Q" target="_muceIIEtEemmQrEckjY4Mw" source="_cAkVQIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_-q95sIklEemgnax7QKuu0Q" target="_x_qbEIEqEemmQrEckjY4Mw" source="_eut9kIEkEemmQrEckjY4Mw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_MFOfYIkmEemgnax7QKuu0Q" target="__AOKgIEuEemmQrEckjY4Mw" source="_zTDVkIEqEemmQrEckjY4Mw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_D3xzgIEoEemmQrEckjY4Mw" name="Aircraft or System Development" node="_-pey0ICcEemNj7Hr1AGSTw _cAkVQIEkEemmQrEckjY4Mw _eut9kIEkEemmQrEckjY4Mw _pC_pwIEkEemmQrEckjY4Mw _q_fysIEkEemmQrEckjY4Mw" represents="_5LfRAIBYEemNj7Hr1AGSTw"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_SD6asIErEemmQrEckjY4Mw" name="Safety Assessement" node="_KkBk4IEvEemmQrEckjY4Mw _12_fsIEvEemmQrEckjY4Mw"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_OV6lkICUEemNj7Hr1AGSTw" outgoing="_pJtYMICUEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_j6ObkICUEemNj7Hr1AGSTw" name="Development Planning" incoming="_pJtYMICUEemNj7Hr1AGSTw" outgoing="_n0xPcICdEemNj7Hr1AGSTw" behavior="__78UgICBEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_-pey0ICcEemNj7Hr1AGSTw" name="Development of Aircraft function" incoming="_n0xPcICdEemNj7Hr1AGSTw _IrAcgIEpEemmQrEckjY4Mw" outgoing="_4KX4kIEkEemmQrEckjY4Mw _TPeSEIEvEemmQrEckjY4Mw" inPartition="_D3xzgIEoEemmQrEckjY4Mw" behavior="_OVln4H5DEem6Cfa7eDdxWw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_cAkVQIEkEemmQrEckjY4Mw" name="Allocation of Aircraft functions to Systems" incoming="_4KX4kIEkEemmQrEckjY4Mw _JfRyEIEpEemmQrEckjY4Mw" outgoing="_46l0kIEkEemmQrEckjY4Mw _IrAcgIEpEemmQrEckjY4Mw _xJTEcIklEemgnax7QKuu0Q" inPartition="_D3xzgIEoEemmQrEckjY4Mw" behavior="_rfQFsH5DEem6Cfa7eDdxWw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_eut9kIEkEemmQrEckjY4Mw" name="Development of System Architecture" incoming="_46l0kIEkEemmQrEckjY4Mw _Kn5nAIEpEemmQrEckjY4Mw _OE3RUIklEemgnax7QKuu0Q _O80NAIklEemgnax7QKuu0Q" outgoing="_8TXuQIEkEemmQrEckjY4Mw _JfRyEIEpEemmQrEckjY4Mw _-q95sIklEemgnax7QKuu0Q" inPartition="_D3xzgIEoEemmQrEckjY4Mw" behavior="_s7rsQIBYEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_pC_pwIEkEemmQrEckjY4Mw" name="Allocation of System Requirements to Items" incoming="_8TXuQIEkEemmQrEckjY4Mw _LY93kIEpEemmQrEckjY4Mw _YBEbwIklEemgnax7QKuu0Q" outgoing="__e_VsIEkEemmQrEckjY4Mw _Kn5nAIEpEemmQrEckjY4Mw" inPartition="_D3xzgIEoEemmQrEckjY4Mw" behavior="_1Q2ncIBYEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_q_fysIEkEemmQrEckjY4Mw" name="System Implementation" incoming="__e_VsIEkEemmQrEckjY4Mw" outgoing="_LY93kIEpEemmQrEckjY4Mw _pDoUMIEqEemmQrEckjY4Mw _f1CHUIklEemgnax7QKuu0Q" inPartition="_D3xzgIEoEemmQrEckjY4Mw" behavior="_yf7X8IBYEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_ic-wUIEqEemmQrEckjY4Mw" name="Implementation Verification" incoming="_pDoUMIEqEemmQrEckjY4Mw _BsC6gIklEemgnax7QKuu0Q __bKdAIkkEemgnax7QKuu0Q" behavior="_Tai3sICBEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_uPU9AIEqEemmQrEckjY4Mw" name="Aircraft Level FHA" incoming="_b9r_YIEvEemmQrEckjY4Mw" outgoing="_8XW1YIEvEemmQrEckjY4Mw _JdR3oIkkEemgnax7QKuu0Q" behavior="_57zW0IBcEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_x_qbEIEqEemmQrEckjY4Mw" name="PSSA" incoming="_QmQXoIEwEemmQrEckjY4Mw _-q95sIklEemgnax7QKuu0Q" outgoing="_TOMDMIEwEemmQrEckjY4Mw _O80NAIklEemgnax7QKuu0Q _YBEbwIklEemgnax7QKuu0Q" behavior="_USOMwIBkEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_zTDVkIEqEemmQrEckjY4Mw" name="CCA" incoming="_JdR3oIkkEemgnax7QKuu0Q _VLnHAIkkEemgnax7QKuu0Q" outgoing="_MFOfYIkmEemgnax7QKuu0Q" behavior="_W1nWkIBkEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_1qP2cIEqEemmQrEckjY4Mw" name="SSA" incoming="_TOMDMIEwEemmQrEckjY4Mw _f1CHUIklEemgnax7QKuu0Q" outgoing="__bKdAIkkEemgnax7QKuu0Q" behavior="_Samj0IBkEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_6IsXsIEqEemmQrEckjY4Mw" name="SFO" behavior="_YUMNYIBkEemNj7Hr1AGSTw"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_muceIIEtEemmQrEckjY4Mw" name="System-Level FHA" incoming="_-xFF0IEvEemmQrEckjY4Mw _xJTEcIklEemgnax7QKuu0Q" outgoing="_QmQXoIEwEemmQrEckjY4Mw _VLnHAIkkEemgnax7QKuu0Q _OE3RUIklEemgnax7QKuu0Q" behavior="_ApJIcYd3EemIcfqmN26Q0w"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_6WZ8MIEtEemmQrEckjY4Mw" name="PASA" incoming="_gwcjwIEvEemmQrEckjY4Mw" outgoing="_4f_iQIEvEemmQrEckjY4Mw" behavior="_YT8w4Yd3EemIcfqmN26Q0w"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="__AOKgIEuEemmQrEckjY4Mw" name="ASA" incoming="_MFOfYIkmEemgnax7QKuu0Q" outgoing="_BsC6gIklEemgnax7QKuu0Q" behavior="_w2w00Yd2EemIcfqmN26Q0w"/>
+      <node xmi:type="uml:ForkNode" xmi:id="_KkBk4IEvEemmQrEckjY4Mw" incoming="_TPeSEIEvEemmQrEckjY4Mw" outgoing="_b9r_YIEvEemmQrEckjY4Mw _gwcjwIEvEemmQrEckjY4Mw" inPartition="_SD6asIErEemmQrEckjY4Mw"/>
+      <node xmi:type="uml:JoinNode" xmi:id="_12_fsIEvEemmQrEckjY4Mw" name="" incoming="_4f_iQIEvEemmQrEckjY4Mw _8XW1YIEvEemmQrEckjY4Mw" outgoing="_-xFF0IEvEemmQrEckjY4Mw" inPartition="_SD6asIErEemmQrEckjY4Mw"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_6M-CYIHoEemcgtS20UCkXg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6M_3kIHoEemcgtS20UCkXg" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -484,7 +499,6 @@
   <certificationProfile:Process xmi:id="_w2xb4Id2EemIcfqmN26Q0w" base_Class="_w2w00Id2EemIcfqmN26Q0w" semantics="Aircraft Safety Assessment"/>
   <certificationProfile:Process xmi:id="_ApJvgId3EemIcfqmN26Q0w" base_Class="_ApJIcId3EemIcfqmN26Q0w" semantics="System Level Functional Hazard Assessment"/>
   <certificationProfile:Process xmi:id="_YT9X8Id3EemIcfqmN26Q0w" base_Class="_YT8w4Id3EemIcfqmN26Q0w" semantics="Preliminary Aircraft Safety Assessment"/>
-  <certificationProfile:Artefact xmi:id="_DgCTsIeQEemIcfqmN26Q0w"/>
   <certificationProfile:Artefact xmi:id="_NPSnQIeQEemIcfqmN26Q0w" type="data" base_Port="_MOWHoIeQEemIcfqmN26Q0w"/>
   <certificationProfile:Artefact xmi:id="_6EEywIeTEemIcfqmN26Q0w" type="data" base_Port="_uR4-IIeTEemIcfqmN26Q0w"/>
   <certificationProfile:Artefact xmi:id="_AIf94IeVEemIcfqmN26Q0w" type="data" base_Port="_2naCIIeUEemIcfqmN26Q0w"/>
@@ -537,4 +551,8 @@
   <certificationProfile:Artefact xmi:id="_HlL7cIehEemIcfqmN26Q0w" type="data" base_Port="_HlKGQIehEemIcfqmN26Q0w"/>
   <certificationProfile:Artefact xmi:id="_RPW6sIehEemIcfqmN26Q0w" type="data" base_Port="_RPUecIehEemIcfqmN26Q0w"/>
   <certificationProfile:Artefact xmi:id="_bvNkwIehEemIcfqmN26Q0w" type="data" base_Port="_bvMWoIehEemIcfqmN26Q0w"/>
+  <certificationProfile:Artefact xmi:id="_caz60IkzEemgnax7QKuu0Q" type="data" base_Port="_caxekIkzEemgnax7QKuu0Q"/>
+  <certificationProfile:Artefact xmi:id="_gIDBkIkzEemgnax7QKuu0Q" type="data" base_Port="_gIBzcIkzEemgnax7QKuu0Q"/>
+  <certificationProfile:Artefact xmi:id="_1Qh9AI2uEemaWLAk3anhLw" type="data" base_Port="_1QF4II2uEemaWLAk3anhLw"/>
+  <certificationProfile:Artefact xmi:id="_3uOHcI2uEemaWLAk3anhLw" type="data" base_Port="_3uMSQI2uEemaWLAk3anhLw"/>
 </xmi:XMI>

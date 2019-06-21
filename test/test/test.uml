@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GG_qQIzzEemXccezzX4ZFw" name="test">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_GOhOkIzzEemXccezzX4ZFw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GyORMIz2EemXccezzX4ZFw" name="Country">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_I-0EkIz2EemXccezzX4ZFw" name="city" type="_HkrwQIzzEemXccezzX4ZFw" association="_I-tW4Iz2EemXccezzX4ZFw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I-1SsIz2EemXccezzX4ZFw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I-3H4Iz2EemXccezzX4ZFw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_I-tW4Iz2EemXccezzX4ZFw" memberEnd="_I-0EkIz2EemXccezzX4ZFw _I-4WAIz2EemXccezzX4ZFw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I-zdgIz2EemXccezzX4ZFw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I-zdgYz2EemXccezzX4ZFw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_I-4WAIz2EemXccezzX4ZFw" name="country" type="_GyORMIz2EemXccezzX4ZFw" association="_I-tW4Iz2EemXccezzX4ZFw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_yMYLgI3aEem5v5eDvzVRcw" name="city">
+    <packagedElement xmi:type="uml:Class" xmi:id="_HkrwQIzzEemXccezzX4ZFw" name="City">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WhkmUIzzEemXccezzX4ZFw" name="CityNumber">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2DZ1YIzzEemXccezzX4ZFw" name="CityName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_KiBEEIzzEemXccezzX4ZFw" name="getCityNumber">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_nq9JIIzzEemXccezzX4ZFw" name="cityNumber" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_xxn3IIzzEemXccezzX4ZFw" name="cityName" direction="out">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qOKEoI3CEemaWLAk3anhLw" name="arrangeCity"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

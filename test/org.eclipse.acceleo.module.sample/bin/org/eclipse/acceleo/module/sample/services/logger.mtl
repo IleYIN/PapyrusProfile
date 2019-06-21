@@ -1,0 +1,30 @@
+[comment encoding = Cp1252 /]
+[**
+ * The documentation of the module.
+ */]
+[module logger('http://www.eclipse.org/uml2/5.0.0/UML')/]
+
+[**
+ * The documentation of the query
+ * @param arg0
+ */]
+[query public logError(arg0 : String) : String
+	= invoke('org.eclipse.acceleo.module.sample.services.Logger', 'logError(java.lang.String)', Sequence{arg0})
+/]
+
+[**
+ * The documentation of the query
+ * @param arg0
+ */]
+[query public logWarning(arg0 : String) : String
+	= invoke('org.eclipse.acceleo.module.sample.services.Logger', 'logWarning(java.lang.String)', Sequence{arg0})
+/]
+
+[**
+ * The documentation of the query
+ * @param arg0
+ */]
+[query public logInfo(arg0 : String) : String
+	= invoke('org.eclipse.acceleo.module.sample.services.Logger', 'logInfo(java.lang.String)', Sequence{arg0})
+/]
+

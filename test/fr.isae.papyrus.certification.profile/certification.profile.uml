@@ -1219,6 +1219,12 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Stereotype" xmi:id="_OFoIMHItEemfSITOi8f5QA" name="Process">
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_IZR1ALgsEemWycdWHVR1Yg" name="ConstraintAttributeOfProcess">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_IZScELgsEemWycdWHVR1Yg" name="constraintSpec">
+        <language>OCL</language>
+        <body>self.base_Class.ownedAttribute->forAll(not extension_Attribute.oclIsUndefined())</body>
+      </specification>
+    </ownedRule>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_5jLdIHV0EemRA_QBS8Gsvg" name="base_Class" association="_5jKPAHV0EemRA_QBS8Gsvg">
       <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5jLdIXV0EemRA_QBS8Gsvg"/>
@@ -1345,6 +1351,16 @@
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_EUe0YIIqEemcgtS20UCkXg" name="others"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Stereotype" xmi:id="_eF6_QIdmEemIcfqmN26Q0w" name="Artefact">
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_1y89oLgsEemWycdWHVR1Yg" name="ConstraintAttributeOfArtefact">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_1y9ksLgsEemWycdWHVR1Yg" name="constraintSpec">
+        <language>OCL</language>
+        <body>if(not(self.base_Port.type.oclIsUndefined()) and self.base_Port.type.oclIsKindOf(UML::Class))then&#xD;
+	self.base_Port.type.oclAsType(UML::Class).ownedAttribute->includesAll(self.attribute->collect(base_Property))&#xD;
+else&#xD;
+	true&#xD;
+endif</body>
+      </specification>
+    </ownedRule>
     <ownedAttribute xmi:type="uml:Property" xmi:id="__WaIgIdmEemIcfqmN26Q0w" name="type" type="_psNVQIIpEemcgtS20UCkXg"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_FbeCQIdnEemIcfqmN26Q0w" name="attribute" type="_nWSz0HIwEemfSITOi8f5QA" association="_FbOxsIdnEemIcfqmN26Q0w">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NbJOkIdnEemIcfqmN26Q0w"/>
@@ -1354,6 +1370,7 @@
       <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Port"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PYH4oodnEemIcfqmN26Q0w"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TRYLgLgiEemWycdWHVR1Yg" name="direction" type="_auGbwLgiEemWycdWHVR1Yg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_FbOxsIdnEemIcfqmN26Q0w" memberEnd="_FbeCQIdnEemIcfqmN26Q0w _FbepUIdnEemIcfqmN26Q0w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FbdbMIdnEemIcfqmN26Q0w" source="org.eclipse.papyrus">
@@ -1363,5 +1380,10 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Extension" xmi:id="_PYGDcIdnEemIcfqmN26Q0w" name="E_Artefact_Port26" memberEnd="_PYH4oIdnEemIcfqmN26Q0w _PYH4oYdnEemIcfqmN26Q0w">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_PYH4oIdnEemIcfqmN26Q0w" name="extension_Artefact" type="_eF6_QIdmEemIcfqmN26Q0w" aggregation="composite" association="_PYGDcIdnEemIcfqmN26Q0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_auGbwLgiEemWycdWHVR1Yg" name="Direction">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_RKUCQLgrEemWycdWHVR1Yg" name="In"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_SPLYkLgrEemWycdWHVR1Yg" name="Out"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_TcijkLgrEemWycdWHVR1Yg" name="InOut"/>
   </packagedElement>
 </uml:Profile>

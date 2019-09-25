@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated certification.profile -->
+      <package
+            uri="http://www.isae.fr/certification/1"
+            class="certification.CertificationPackage"
+            genModel="profile/certification.profile.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://CERTIFICATION_PROFILE/"
+            target="platform:/plugin/fr.isae.papyrus.certification.profile/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+         <profile
+            location="pathmap://CERTIFICATION_PROFILE/certification.profile.uml#_fnQBUHIsEemfSITOi8f5QA"
+            uri="http://www.isae.fr/certification/1">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="certification profile"
+            name="CERTIFICATION"
+            path="pathmap://CERTIFICATION_PROFILE/certification.profile.uml"
+            provider="isae">
+      </profile>
+   </extension>
+
+</plugin>
